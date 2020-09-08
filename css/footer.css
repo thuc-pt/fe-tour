@@ -1,0 +1,56 @@
+footer {
+    margin-top: 40px;
+    background: url('../images/ruong-bac-thang.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+} 
+footer .col-xl-4 {
+    margin-top: 20px;
+}
+.content-footer {
+    background: rgba(0, 0, 0, .8);
+    padding-top: 30px;
+    padding-bottom: 40px;
+    color: white;
+}
+footer ul {
+    padding: 0;
+}
+footer .nav-link {
+    font-size: 15px;
+    color: white;
+}
+footer .nav-link:hover {
+    color: orangered;
+}
+.footer-2 {
+    background: rgba(0, 0, 0, .8);
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.btn-back-top {
+    padding: 10px 15px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background: none;
+    position: fixed;
+    right: 30px;
+    bottom: 70px;
+    outline: none;
+}
+.btn-back-top:hover {
+    background: orangered;
+    color: white;
+    border: none;
+}

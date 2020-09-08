@@ -1,0 +1,500 @@
+.slide-1 {
+    background-image: url('../images/slide-1.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slide-2 {
+    background-image: url('../images/slide-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.carousel-item {
+    width: 100%;
+    height: 100vh;
+}
+.content-slide {
+    width: 600px;
+    height: auto;
+    padding: 30px 65px 40px 65px;
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+}
+.content-slide h1 {
+    font-weight: bold;
+    color: red;
+    margin-bottom: 30px;
+}
+.content-slide h4 {
+    color: white;
+}
+.content-slide p {
+    color: lightgray;
+    line-height: 40px;
+}
+
+.content-slide button {
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.content-slide button:hover {
+    background: orangered;
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 100px !important;
+}
+.fa-chevron-left, .fa-chevron-right {
+    font-size: 24px;
+    padding: 8px 13px 8px 13px;
+    color: orange;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.fa-chevron-left:hover, .fa-chevron-right:hover {
+    background: orangered;
+    color: white;
+    border: none;
+}
+.first-child {
+    position: relative;
+    top: -54px;
+}
+.link-big-1 {
+    padding: 15px 50px !important;
+    background: rgba(0,0,0,.3);
+    color: white;
+    font-weight: bold;
+    border-radius: 15px 0 0 0;
+}
+.link-big-2 {
+    padding: 15px 50px !important;
+    background: rgba(0,0,0,.3);
+    color: white;
+    font-weight: bold;
+    border-radius: 0 15px 0 0;
+}
+.link-big-1:hover, .link-big-2:hover {
+    background: rgba(0,0,0,.5) !important;
+    color: orange !important;
+}
+content input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+.tab-content ul {
+    list-style: none;
+}
+#tour .drop-map, #hotel .drop-map {
+    width: 500px;
+    padding: 20px;
+}
+#tour .drop-price, #hotel .drop-price {
+    width: 270px;
+    padding: 20px;
+}
+#tour .drop-date, #hotel .drop-date {
+    width: 220px;
+    padding: 20px;
+}
+#tour .drop-go-to {
+    width: 300px;
+    padding: 20px;
+}
+#hotel .drop-giuong {
+    width: 265px;
+    padding: 20px;
+}
+.dropdown-menu .form-check-inline {
+    padding: 10px;
+}
+.dropdown .nav-link {
+    padding: 10px 20px;
+    background: white;
+    margin: 0 5px;
+}
+.price {
+    background: white;
+    margin: 0 5px;
+}
+#tour button, #hotel button {
+    padding: 10px 20px;
+    background: #333;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    outline: none;
+}
+#tour button:hover, #hotel button:hover {
+    background: black;
+}
+.tab-content {
+    margin-top: -56px;
+    padding: 30px;
+    background: orange;
+}
+
+
+
+.tour-hap-dan {
+    margin-top: 50px;
+}
+.tour-hap-dan .col-xl-4 {
+    height: 350px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+.tour-hap-dan .col-xl-4 .img-1, .tour-hap-dan .col-xl-4 .img-2, .tour-hap-dan .col-xl-4 .img-3, .tour-hap-dan .col-xl-4 .img-4, .tour-hap-dan .col-xl-4 .img-5, .tour-hap-dan .col-xl-4 .img-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    height: 100%;
+    transition: all 0.7s;
+}
+.img-1:hover, .img-2:hover, .img-3:hover, .img-4:hover, .img-5:hover, .img-6:hover {
+    transform: scale(1.1);
+}
+.tour-hap-dan .col-xl-4 .img-1 {
+    background-image: url('../images/ruong-bac-thang.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tour-hap-dan .col-xl-4 .img-2 {
+    background-image: url('../images/co-do-hue.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tour-hap-dan .col-xl-4 .img-3 {
+    background-image: url('../images/vinh-ha-long.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tour-hap-dan .col-xl-4 .img-4 {
+    background-image: url('../images/mien-tay.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tour-hap-dan .col-xl-4 .img-5 {
+    background-image: url('../images/da-lat.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tour-hap-dan .col-xl-4 .img-6 {
+    background-image: url('../images/hoi-an.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fa-star {
+    color: yellow;
+}
+.img-1 p, .img-2 p, .img-3 p, .img-4 p, .img-5 p, .img-6 p {
+    font-size: 20px;
+}
+.img-1 button, .img-2 button, .img-3 button, .img-4 button, .img-5 button, .img-6 button {
+    color: white;
+    font-weight: bold;
+    border-radius: 17px;
+    padding: 4px 10px;
+    background: orange;
+    border: none;
+    outline: none;
+}
+.img-1 button:hover, .img-2 button:hover, .img-3 button:hover, .img-4 button:hover, .img-5 button:hover, .img-6 button:hover {
+    background: orangered;
+}
+
+
+
+.sale {
+    margin-top: 30px;
+    background: url('../images/resort-pq.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.sale h1, .sale h5, .sale h6 {
+    font-weight: bold;
+}
+.sale button {
+    background: orange;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+.sale button:hover {
+    background: orangered;
+}
+
+
+.tour-user {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.tour-user .col-xl-4 {
+    height: 280px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.i1, .i2, .i3, .i4, .i5, .i6, .i7, .i8, .i9 {
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+}
+.tour-user .col-xl-4 .i1 {
+    background: url('../images/sapa.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tour-user .col-xl-4 .i2 {
+    background: url('../images/nha-trang.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tour-user .col-xl-4 .i3 {
+    background: url('../images/ha-noi.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tour-user .col-xl-4 .i4 {
+    background: url('../images/sai-gon.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tour-user .col-xl-4 .i5 {
+    background: url('../images/phong-canh-dalat.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tour-user .col-xl-4 .i6 {
+    background: url('../images/can-tho.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tour-user .col-xl-4 .i7 {
+    background: url('../images/hinh-anh-dep-ve-da-nang.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tour-user .col-xl-4 .i8 {
+    background: url('../images/dao-phu-quoc.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tour-user .col-xl-4 .i9 {
+    background: url('../images/kinh-thanh-hue.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.i1:hover, .i2:hover, .i3:hover, .i4:hover, .i5:hover, .i6:hover, .i7:hover, .i8:hover, .i9:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+.tour-noi-tieng {
+    margin-top: 100px;
+}
+.tour-noi-tieng .col-xl-4 {
+    height: 450px;
+    margin-bottom: 25px;
+}
+.hinh-1, .hinh-2, .hinh-3 {
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tour-noi-tieng .hinh-1 {
+    background: url('../images/ba-na-hill.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tour-noi-tieng .hinh-2 {
+    background: url('../images/vinpearl-land.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tour-noi-tieng .hinh-3 {
+    background: url('../images/pho-co-hoi-an.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hinh-1 button, .hinh-2 button, .hinh-3 button {
+    color: white;
+    font-weight: bold;
+    border-radius: 17px;
+    padding: 4px 10px;
+    background: orange;
+    border: none;
+    outline: none;
+}
+.hinh-1 button:hover, .hinh-2 button:hover, .hinh-3 button:hover {
+    background: orangered;
+}
+.tour-noi-tieng h2, .tour-noi-tieng h3, .tour-noi-tieng h5, .tour-noi-tieng p {
+    font-weight: bold;
+}
+
+
+
+.tour-city {
+    margin-top: 75px;
+}
+.tour-city .big {
+    height: 525px;
+}
+
+.mien-bac .map {
+    height: 100%;
+    background: url('../images/map-bac.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+.tour-city .img {
+    height: 250px;
+    color: white;
+    margin-bottom: 25px;
+}
+.h-1, .h-2, .h-3, .h-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mien-bac .h-1 {
+    height: 100%;
+    background: url('../images/sapa.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+.mien-bac .h-2 {
+    height: 100%;
+    background: url('../images/vinh-ha-long.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+.mien-bac .h-3 {
+    height: 100%;
+    background: url('../images/ha-noi.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+.mien-bac .h-4 {
+    height: 100%;
+    background: url('../images/Dong-Phong-Nha.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+
+.tour-city button {
+    color: white;
+    border-radius: 17px;
+    padding: 4px 10px;
+    background: orange;
+    border: none;
+    outline: none;
+}
+.tour-city button:hover {
+    background: orangered;
+}
+
+
+.mien-nam .map {
+    height: 100%;
+    background: url('../images/map-nam.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    opacity: 0.8;
+}
+
+.mien-nam .h-1 {
+    height: 100%;
+    background: url('../images/can-tho.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+.mien-nam .h-2 {
+    height: 100%;
+    background: url('../images/da-lat.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+.mien-nam .h-3 {
+    height: 100%;
+    background: url('../images/sai-gon.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+.mien-nam .h-4 {
+    height: 100%;
+    background: url('../images/dao-phu-quoc.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+h1, h2, h3, h4, h5, h6, p {
+    font-weight: bold;
+}

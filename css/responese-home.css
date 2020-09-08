@@ -1,0 +1,28 @@
+@media only screen and (max-width: 576px) {
+    .content-slide {
+        padding: 10px 0 10px 0;
+        text-align: center;
+        width: 370px;
+    }
+    .carousel-control-prev, .carousel-control-next {
+        width: 35px !important;
+    }
+    .fa-chevron-left, .fa-chevron-right {
+        font-size: 15px;
+        padding: 5px 8px 5px 8px;
+    }
+
+    .link-big-1, .link-big-2 {
+        padding: 8px 25px !important;
+    }
+    .first-child {
+        top: -39px;
+    }
+    .dropdown {
+        margin-bottom: 10px;
+    }
+    #tour .drop-map, #hotel .drop-map {
+        width: 304px !important;
+        padding: 5px;
+    }
+}
